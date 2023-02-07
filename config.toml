@@ -1,0 +1,4 @@
+baseURL = 'https://4lxs.github.io/'
+languageCode = 'en-us'
+title = 'Security Hell'
+theme = 'LoveIt'
