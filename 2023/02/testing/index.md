@@ -1,7 +1,13 @@
 # Testing
 
 
-## this is a testing post
+# this is a testing post
+Go fuck yourself :joy:
+<!--more-->
+[escape](#escape)
 
-this is committed to trigger a workflow
 
+```py
+def func(a, b):
+    return a + b
+```
