@@ -1,4 +1,218 @@
 baseURL = 'https://4lxs.github.io/'
-languageCode = 'en-us'
+languageCode = 'en'
+languageName = 'English'
+hasCJKLanguage = false
+
+paginate = 12
+# google analytics code [UA-XXXXXXXX-X]
+# googleAnalytics = ""
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
 title = 'Security Hell'
 theme = 'LoveIt'
+
+[author]
+  name = 'svl'
+  email = ""
+  link = ""
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+
+[params]
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/4lxs"
+  # fingerprint = "sha256"
+  dateFormat = "2006-01-02"
+  title = "Security Hell"
+  # description = ""
+  images = ["/logo.png"]
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "Security Hell"
+      typeit = true
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # custom = ''
+    hugo = true
+    copyright = true
+    author = true
+    since = 2023
+    # icp = ""
+    license = '<a rel="license external nofollow noopener noreffer" href="http://www.wtfpl.net/" target="_blank">WTFPL</a>'
+
+  [params.section]
+    # paginate = 20
+    dateFormat = "01-02"
+    # rss = 10
+
+  [params.list]
+    # paginate = 20
+    dateFormat = "01-02"
+    # rss = 10
+
+  [params.app]
+    # title = "My cool site"
+    noFavicon = false
+    # svgFavicon = ""
+    # themeColor = "#ffffff"
+    # iconColor = "#5bbad5"
+    # tileColor = "#da532c"
+
+  [params.search]
+    enable = true
+    type = "lunr"
+    # contentLength = 4000
+    placeholder = "Type shit"
+    # maxResultLength = 10
+    # snippetLength = 30
+    # highlightTag = "em"
+    absoluteURL = false
+
+  [params.home]
+    # rss = 10
+    [params.home.profile]
+      enable = false
+      # gravatarEmail = ""
+      # avatarURL = "/images/avatar.png"
+      # title = "svl"
+      subtitle = "security hell"
+      typeit = true
+      social = true
+      # disclaimer = "fuck you"
+    [params.home.posts]
+      enable = true
+      # paginate = 6
+      # defaultHiddenFromHomePage = false
+
+#   [params.social]
+#     GitHub = "xxxx"
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    # twemoji = false
+    # lightgallery = false
+    # ruby = true
+    # fraction = true
+    # fontawesome = true
+    # linkToMarkdown = true
+    # rssFullText = false
+    [params.page.toc]
+      enable = true
+      # keepStatic = false
+      # auto = true
+    [params.page.math]
+      enable = true
+      # inlineLeftDelimiter = ""
+      # inlineRightDelimiter = ""
+      # blockLeftDelimiter = ""
+      # blockRightDelimiter = ""
+      # copyTex = true
+      # mhchem = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+    [params.page.share]
+      enable = false
+    [params.page.comment]
+      enable = true
+    # [params.page.library]
+    #   [params.page.library.css]
+    #   [params.page.library.js]
+    # [params.page.seo]
+    #   images = []
+    #   [params.page.seo.publisher]
+    #     name = ""
+    #     logoUrl = ""
+
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  # [params.cookieconsent]
+  #   enable = true
+  #   [params.cookieconsent.content]
+  #     message = ""
+  #     dismiss = ""
+  #     link = ""
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# [sitemap]
+#   changefreq = "weekly"
+#   filename = "sitemap.xml"
+#   priority = 0.5
+
+[Permalinks]
+  posts = ":year/:month/:filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
