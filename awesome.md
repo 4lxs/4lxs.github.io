@@ -13,3 +13,9 @@ list of websites where you can play wargames (offline ctfs)
 {% embed url="https://ctf.samsongama.com/ctf/binary/picoctf19-handy_shellcode.html" %}
 Lots of ctf challenges with writeups
 {% endembed %}
+
+## Malware
+
+{% embed url="https://github.com/rootkit-io/awesome-malware-development" %}
+malware development resources
+{% endembed %}

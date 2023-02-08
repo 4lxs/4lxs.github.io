@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Security notes](README.md)
-* [Pwn](pwn.md)
-* [Malware](malware.md)
 * [Awesome](awesome.md)
+* [Pwn](resources/pwn.md)
+* [Malware](malware/README.md)
+  * [Samples](malware/samples.md)
