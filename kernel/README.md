@@ -17,3 +17,5 @@ list of more important windows data structures
 {% endembed %}
 
 {% embed url="https://www.cyberark.com/resources/threat-research-blog/finding-bugs-in-windows-drivers-part-1-wdm" %}
+
+{% embed url="https://web.archive.org/web/20200510110201/https://fullpwnops.com/windows-exploitation-pathway.html" %}
