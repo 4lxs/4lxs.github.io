@@ -2,7 +2,7 @@
 description: resources to learn and practice ctfs
 ---
 
-# ctf
+# CTF
 
 {% embed url="https://www.roppers.org/collections" %}
 beginner ctf courses
