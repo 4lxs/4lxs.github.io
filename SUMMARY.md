@@ -3,6 +3,5 @@
 * [Security notes](README.md)
 * [Awesome](awesome.md)
 * [ctf](ctf/README.md)
-  * [Pwn](ctf/pwn.md)
-* [Malware](malware/README.md)
-  * [Samples](malware/samples.md)
+  * [Pwn](resources/pwn.md)
+* [Malware](malware.md)
