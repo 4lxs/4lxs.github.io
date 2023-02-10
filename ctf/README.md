@@ -8,7 +8,7 @@ description: resources to learn and practice ctfs
 beginner ctf courses
 {% endembed %}
 
-{% embed url="https://github.com/Adamkadaban/CTFs#youtube-we-love-video-resources" %}
+{% embed url="https://github.com/Adamkadaban/CTFs" %}
 
 {% embed url="https://ctf.samsongama.com/index.html" %}
 
