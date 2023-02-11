@@ -19,3 +19,7 @@ binexp/re course based on the nightmare course with additional resources
 {% embed url="https://pwn.college" %}
 binexp/re course
 {% endembed %}
+
+{% embed url="https://exploit.education/" %}
+
+{% embed url="https://github.com/r0r0x-xx/OSED-Pre" %}
