@@ -15,3 +15,4 @@
   * [Debugging](kernel/debugging/README.md)
     * [qemu vm windows kernel debugging](kernel/debugging/qemu-vm-windows-kernel-debugging.md)
   * [Virtualization](kernel/virtualization.md)
+  * [Games](kernel/games.md)
