@@ -6,3 +6,4 @@ description: >-
 
 # Virtualization
 
+{% embed url="https://github.com/tandasat/Hypervisor-101-in-Rust" %}
