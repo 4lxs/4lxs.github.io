@@ -32,5 +32,4 @@ article about ways to bypass smep from before it was even deployed
 
 {% embed url="https://github.com/hacksysteam/HackSysExtremeVulnerableDriver" %}
 
-
-
+{% embed url="https://www.geoffchappell.com/studies/windows/km/index.htm" %}
