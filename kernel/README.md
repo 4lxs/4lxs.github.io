@@ -33,3 +33,15 @@ article about ways to bypass smep from before it was even deployed
 {% embed url="https://github.com/hacksysteam/HackSysExtremeVulnerableDriver" %}
 
 {% embed url="https://www.geoffchappell.com/studies/windows/km/index.htm" %}
+
+{% embed url="https://www.codeproject.com/Articles/1273844/The-Intel-Assembly-Manual-3" %}
+
+{% embed url="https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html" %}
+
+{% embed url="https://github.com/hygoni/awesome-linux-kernel" %}
+
+{% embed url="https://github.com/rynsy/awesome-kernel" %}
+
+{% embed url="https://pages.cs.wisc.edu/~remzi/OSTEP/" %}
+
+{% embed url="http://www.dit.upm.es/~jmseyas/linux/kernel/hackers-docs.html" %}
