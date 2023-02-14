@@ -45,3 +45,7 @@ article about ways to bypass smep from before it was even deployed
 {% embed url="https://pages.cs.wisc.edu/~remzi/OSTEP/" %}
 
 {% embed url="http://www.dit.upm.es/~jmseyas/linux/kernel/hackers-docs.html" %}
+
+{% embed url="https://codemachine.com/articles/interrupt_dispatching.html" %}
+explanation of modern idt in windows
+{% endembed %}

@@ -13,11 +13,17 @@ Overview of xss
 {% endembed %}
 
 {% embed url="https://learn.snyk.io/lessons/xss/javascript/" %}
-basic xss examples and explenation
+basic xss examples and explanation
 {% endembed %}
 
 {% embed url="https://www.bugbountyhunter.com/vulnerability/?type=xss" %}
 more stuff on xss
 {% endembed %}
 
+{% embed url="https://excess-xss.com/" %}
+comprehensive tutorial on xss
+{% endembed %}
+
 ## Practice
+
+{% embed url="https://xss.challenge.training.hacq.me/" %}
