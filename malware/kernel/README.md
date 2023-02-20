@@ -4,9 +4,23 @@ description: all very low level stuff goes here. that includes kernel, firmware,
 
 # Kernel
 
-{% embed url="https://j00ru.vexillium.org/2011/06/smep-what-is-it-and-how-to-beat-it-on-windows/" %}
-article about ways to bypass smep from before it was even deployed
-{% endembed %}
+[irp hooking](http://blog.chinaaet.com/bluehacker/p/11111)
+
+[ssdt hooking](https://resources.infosecinstitute.com/topic/hooking-system-service-dispatch-table-ssdt/)
+
+[bypassing patchguard](https://web.archive.org/web/20210613043018/https:/www.godeye.club/2021/05/22/001-bypass-patchguard-pssetcreateprocessnotifyroutine.html)
+
+[hevd](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver#blog-post)
+
+[connor mcgarr blog](https://connormcgarr.github.io/)
+
+[equ8-poc](https://github.com/kkent030315/EQU8-PoC)
+
+[ghost hook](https://www.cyberark.com/resources/threat-research-blog/ghosthook-bypassing-patchguard-with-processor-trace-based-hooking)
+
+[dse overrider](https://github.com/hfiref0x/DSEFix)
+
+[finding bugs in windows drivers](https://www.cyberark.com/resources/threat-research-blog/finding-bugs-in-windows-drivers-part-1-wdm)
 
 {% embed url="https://blog.nviso.eu/?s=kernel+karnage" %}
 
@@ -49,3 +63,7 @@ article about ways to bypass smep from before it was even deployed
 {% embed url="https://codemachine.com/articles/interrupt_dispatching.html" %}
 explanation of modern idt in windows
 {% endembed %}
+
+## Read
+
+[smep](https://j00ru.vexillium.org/2011/06/smep-what-is-it-and-how-to-beat-it-on-windows/)

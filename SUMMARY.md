@@ -1,8 +1,7 @@
 # Table of contents
 
-* [Security notes](README.md)
+* [My knowledge base](README.md)
 * [Awesome](awesome.md)
-* [Blogs](blogs.md)
 * [CTF](ctf.md)
 * [Pwn](pwn/README.md)
   * [Stack](pwn/stack/README.md)
@@ -11,8 +10,9 @@
 * [Malware](malware/README.md)
   * [Rootkits](malware/rootkits/README.md)
     * [Repos](malware/rootkits/repos.md)
-* [Kernel](kernel/README.md)
-  * [Debugging](kernel/debugging/README.md)
-    * [qemu vm windows kernel debugging](kernel/debugging/qemu-vm-windows-kernel-debugging.md)
-  * [Virtualization](kernel/virtualization.md)
+  * [Kernel](malware/kernel/README.md)
+    * [Debugging](malware/kernel/debugging/README.md)
+      * [qemu vm windows kernel debugging](malware/kernel/debugging/qemu-vm-windows-kernel-debugging.md)
+    * [Virtualization](malware/kernel/virtualization.md)
 * [Games](games.md)
+* [Page 1](page-1.md)
