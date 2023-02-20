@@ -16,6 +16,3 @@
     * [qemu vm windows kernel debugging](kernel/debugging/qemu-vm-windows-kernel-debugging.md)
   * [Virtualization](kernel/virtualization.md)
 * [Games](games.md)
-* [Web/bb](web-bb/README.md)
-  * [Recon](web-bb/recon.md)
-  * [XSS](web-bb/xss.md)
