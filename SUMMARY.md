@@ -17,5 +17,6 @@
     * [Virtualization](kernel/virtualization.md)
 * [Games](games.md)
 * [ml](ml/README.md)
+  * [Linear Regression](ml/linear-regression.md)
   * [logistic regression](ml/logistic-regression.md)
   * [Gradient Descent](ml/gradient-descent.md)
