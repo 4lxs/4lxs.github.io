@@ -16,7 +16,7 @@ $$
 
 ## Reality
 
-even if the best model for predicting y given x is linear, we would not expect any real world dataset where $y^{(i)}$ exactly equals $w^{(i)} x^{(i)}+b$ for all $1 \leq i \leq n$ due to measurement errors and the like, as there will generally be some error.
+even if the best model for predicting y given x is linear, we would not expect any real world dataset where $$y^{(i)}$$ exactly equals $$w^{(i)} x^{(i)}+b$$ for all $$1 \leq i \leq n$$ due to measurement errors and the like, as there will generally be some error.
 
 ## Loss Function
 
@@ -28,26 +28,26 @@ $$
 
 ## Analytic solution
 
-linear regression has an analytic solution. we can subsume the bias into the parameter $w$ by appending a columnt to design matrix consisting of all ones. then the prediction problem becomes to minimize $|| y - Xw ||^2$. taking the derivative with respect to $w$ and setting it to zero, in the end yields solution.
+linear regression has an analytic solution. we can subsume the bias into the parameter $w$ by appending a column to design matrix consisting of all ones. then the prediction problem becomes to minimize $$|| y - Xw ||^2$$. taking the derivative with respect to $w$ and setting it to zero, in the end yields solution.
 
 $$
 w^* = (X^\top X)^{-1}X^\top y
 $$
 
-note that the solution will only be unique when $X^\top X$ is invertible.
+note that the solution will only be unique when $$X^\top X$$ is invertible.
 
-## Gradiant Descent
+## Gradient Descent
 
-If we have an analytic solution, why would we need to use gradiant descent?
+If we have an analytic solution, why would we need to use gradient descent?
 
-matrix multiplication is a very computationally intensive problem ($O(n^3)$), which means that while it gives an optimal solution, it's unfeasable to compute it on very large datasets. For such problems it's better to use other optimization solutions.
+matrix multiplication is a very computationally intensive problem ($O(n^3)$), which means that while it gives an optimal solution, it's unfeasible to compute it on very large datasets. For such problems it's better to use other optimization solutions.
 
-[notes on gradiant descent](gradient-descent.md)
+[notes on gradient descent](gradient-descent.md)
 
 ## Resources
 
-[d2l](https://d2l.ai/chapter_linear-regression/linear-regression.html)
+[d2l](https://d2l.ai/chapter\_linear-regression/linear-regression.html)
 
 [ibm](https://www.ibm.com/topics/linear-regression)
 
-[why gradiant descent](https://towardsdatascience.com/why-gradient-descent-is-so-common-in-data-science-def3e6515c5c)
+[why gradient descent](https://towardsdatascience.com/why-gradient-descent-is-so-common-in-data-science-def3e6515c5c)
