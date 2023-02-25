@@ -8,3 +8,7 @@
 
 [practical deep learning for coders](https://course.fast.ai/)
 
+## TODO:
+
+feature scaling
+

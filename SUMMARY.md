@@ -20,3 +20,4 @@
   * [Linear Regression](ml/linear-regression.md)
   * [logistic regression](ml/logistic-regression.md)
   * [Gradient Descent](ml/gradient-descent.md)
+  * [Neural Networks](ml/neural-networks.md)
