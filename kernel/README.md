@@ -2,7 +2,7 @@
 description: all very low level stuff goes here. that includes kernel, firmware, bios...
 ---
 
-# Kernel
+# Windows
 
 [irp hooking](http://blog.chinaaet.com/bluehacker/p/11111)
 
@@ -12,8 +12,6 @@ description: all very low level stuff goes here. that includes kernel, firmware,
 
 [hevd](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver#blog-post)
 
-[connor mcgarr blog](https://connormcgarr.github.io/)
-
 [equ8-poc](https://github.com/kkent030315/EQU8-PoC)
 
 [ghost hook](https://www.cyberark.com/resources/threat-research-blog/ghosthook-bypassing-patchguard-with-processor-trace-based-hooking)
@@ -21,6 +19,12 @@ description: all very low level stuff goes here. that includes kernel, firmware,
 [dse overrider](https://github.com/hfiref0x/DSEFix)
 
 [finding bugs in windows drivers](https://www.cyberark.com/resources/threat-research-blog/finding-bugs-in-windows-drivers-part-1-wdm)
+
+[smep](https://j00ru.vexillium.org/2011/06/smep-what-is-it-and-how-to-beat-it-on-windows/)
+
+
+
+
 
 {% embed url="https://blog.nviso.eu/?s=kernel+karnage" %}
 
@@ -47,23 +51,3 @@ description: all very low level stuff goes here. that includes kernel, firmware,
 {% embed url="https://github.com/hacksysteam/HackSysExtremeVulnerableDriver" %}
 
 {% embed url="https://www.geoffchappell.com/studies/windows/km/index.htm" %}
-
-{% embed url="https://www.codeproject.com/Articles/1273844/The-Intel-Assembly-Manual-3" %}
-
-{% embed url="https://linux-kernel-labs.github.io/refs/heads/master/lectures/intro.html" %}
-
-{% embed url="https://github.com/hygoni/awesome-linux-kernel" %}
-
-{% embed url="https://github.com/rynsy/awesome-kernel" %}
-
-{% embed url="https://pages.cs.wisc.edu/~remzi/OSTEP/" %}
-
-{% embed url="http://www.dit.upm.es/~jmseyas/linux/kernel/hackers-docs.html" %}
-
-{% embed url="https://codemachine.com/articles/interrupt_dispatching.html" %}
-explanation of modern idt in windows
-{% endembed %}
-
-## Read
-
-[smep](https://j00ru.vexillium.org/2011/06/smep-what-is-it-and-how-to-beat-it-on-windows/)
