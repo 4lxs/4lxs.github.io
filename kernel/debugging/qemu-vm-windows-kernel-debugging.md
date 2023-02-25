@@ -4,13 +4,9 @@ description: set up 2 qemu vm's (host, target) for windows debugging.
 
 # qemu vm windows kernel debugging
 
-{% embed url="https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/setting-up-a-network-debugging-connection-automatically" %}
-main windows article on the topic. also read link below when you realize that it's not working
-{% endembed %}
+[https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/setting-up-a-network-debugging-connection-automatically](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/setting-up-a-network-debugging-connection-automatically)
 
-{% embed url="https://www.binary-zone.com/2021/07/19/windows-kernel-debugging-using-two-vms-on-linux/" %}
-link that saved me from pulling my hair out
-{% endembed %}
+[https://www.binary-zone.com/2021/07/19/windows-kernel-debugging-using-two-vms-on-linux/](https://www.binary-zone.com/2021/07/19/windows-kernel-debugging-using-two-vms-on-linux/)
 
 add `<vendor_id state="on" value="KVMKVMKVM"/>` to hyperv block of virt-manager xml (see link above) in target vm (host doesn't need this)
 
