@@ -14,6 +14,7 @@
     * [DKOM](malware/kernel/dkom/README.md)
       * [Hiding processes](malware/kernel/dkom/hiding-processes.md)
     * [Debugging](kernel/debugging/README.md)
+      * [windbg source debugging](malware/kernel/debugging/windbg-source-debugging.md)
       * [qemu vm windows kernel debugging](kernel/debugging/qemu-vm-windows-kernel-debugging.md)
     * [Virtualization](kernel/virtualization.md)
 * [ml](ml/README.md)
