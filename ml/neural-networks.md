@@ -18,7 +18,7 @@ each neuron has as input the outputs of all neurons of the previous layers, weig
 
 ## Forward pass
 
-A NN's output is calculated by going through layers ($$j_2^n$$ ) and computing for each neuron ($$i_1^m$$) in the layer:$$z^{[j]}_{i} = w^\top * a^{[j-1]} + b; a^{[j]} = g^{[j]}(z^{[j]}_i)$$ with $$a^{[1]}$$ being the input layer $$X$$ the output of the NN is then the output of the last layer $$\hat{y} = a^{[n]}$$
+A NN's output is calculated by going through layers ($$l_1^n$$ ) and computing the activations of that layer:$$a^{[l]} = g^{[l]}(w^{[l]} a^{[l-1]} + b^{[l]})$$ with $$a^{[0]}$$ being the input layer $$X$$. the output of the NN is then the output of the last layer $$\hat{y} = a^{[n]}$$
 
 ## Resources
 

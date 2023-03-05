@@ -6,12 +6,8 @@ description: it's a binary classification algorithm (one of two options) ex. is 
 
 ## prediction
 
-
-
-
-
 $$
-\hat{y} = \sigma(w^Tx+b); \textnormal{~$\sigma$ is activation function (usually sigmoid)}
+\hat{y} = \sigma(wx+b); \textnormal{~$\sigma$ is activation function (usually sigmoid)}
 $$
 
 ## loss/cost function
