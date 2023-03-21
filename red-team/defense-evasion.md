@@ -7,3 +7,5 @@
 [https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/](https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods/)
 
 [https://github.com/Ondrik8/byPass\_AV](https://github.com/Ondrik8/byPass\_AV)
+
+[https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/](https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/)

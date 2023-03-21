@@ -2,7 +2,7 @@
 description: links from around the internet
 ---
 
-# Malware
+# Red Team
 
 ## Sites
 
@@ -30,19 +30,41 @@ description: links from around the internet
 
 [sektor7](https://blog.sektor7.net/#!index.md)
 
+[sec team](https://blog.scrt.ch/)
+
+## Awesome
+
+[awesome malware development](https://github.com/rootkit-io/awesome-malware-development)
+
+[mal/exp resources](https://github.com/evilbuffer/malware-and-exploitdev-resources)
+
+[awesome red teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming)
+
+## Cheat sheets
+
+[ired.team](https://www.ired.team/)
+
+[redteam cheat sheet](https://github.com/RistBS/Awesome-RedTeam-Cheatsheet)
+
+[win32 offensive](https://github.com/matthieu-hackwitharts/Win32\_Offensive\_Cheatsheet)
+
+[windows process injection methods](https://github.com/odzhan/injection)
+
+## Courses
+
+[binary deobfuscation](https://github.com/malrev/ABD)
+
+[hypervisor-from-scratch](https://github.com/SinaKarvandi/Hypervisor-From-Scratch)
+
 ## Projects
 
 [cyber attack simulation](https://github.com/seal9055/cyber\_attack\_simulation)
 
-[windows process injection methods](https://github.com/odzhan/injection)
+[sysinformer](https://github.com/winsiderss/systeminformer)
+
+[reactos](https://github.com/reactos/reactos) (os reimplementation of win server 2003)
 
 ## Homeless
-
-[https://github.com/rootkit-io/awesome-malware-development](https://github.com/rootkit-io/awesome-malware-development)
-
-[https://www.ired.team/offensive-security/red-team-infrastructure](https://www.ired.team/offensive-security/red-team-infrastructure)
-
-[https://github.com/malrev/ABD](https://github.com/malrev/ABD)
 
 [https://p.ost2.fyi/](https://p.ost2.fyi/)
 
@@ -66,12 +88,8 @@ description: links from around the internet
 
 [secret.club](https://secret.club/)
 
-[mal/exp resources](https://github.com/evilbuffer/malware-and-exploitdev-resources)
-
-[https://github.com/RistBS/Awesome-RedTeam-Cheatsheet](https://github.com/RistBS/Awesome-RedTeam-Cheatsheet)
-
-[awesome red teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) (list of red teaming resources)
-
 [linode docs](https://www.linode.com/docs/)
 
 [https://kwcsec.gitbook.io/the-red-team-handbook/](https://kwcsec.gitbook.io/the-red-team-handbook/)
+
+[http://redplait.blogspot.com/](http://redplait.blogspot.com/)
