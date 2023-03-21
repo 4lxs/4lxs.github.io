@@ -32,3 +32,14 @@
 
 [roadmap to master nlp](https://www.analyticsvidhya.com/blog/2022/01/roadmap-to-master-nlp-in-2022/)
 
+## rl
+
+[coursera specialization](https://www.coursera.org/specializations/reinforcement-learning)
+
+[intro to rl](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver)
+
+[deepmind learning resources](https://www.deepmind.com/learning-resources)
+
+[spinning up in rl by openai](https://spinningup.openai.com/en/latest/user/introduction.html)
+
+[awesome deep rl](https://github.com/kengz/awesome-deep-rl)
