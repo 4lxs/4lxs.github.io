@@ -61,3 +61,11 @@ description: all very low level stuff goes here. that includes kernel, firmware,
 ## Awesome
 
 [links](https://github.com/rmusser01/Infosec\_Reference/blob/master/Draft/Rootkits.md)
+
+## LoL
+
+[https://www.varonis.com/blog/living-of-the-land-lol-with-microsoft-tools-part-i-intro-to-regsvr](https://www.varonis.com/blog/living-of-the-land-lol-with-microsoft-tools-part-i-intro-to-regsvr)
+
+[https://www.ired.team/offensive-security/code-execution](https://www.ired.team/offensive-security/code-execution)
+
+[lolbas](https://github.com/LOLBAS-Project/LOLBAS)
