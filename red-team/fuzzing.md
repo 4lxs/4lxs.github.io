@@ -10,4 +10,14 @@
 
 Address sanitizing (ASan)
 
+qasan
+
 valgrind
+
+kcachegrind
+
+lcov
+
+afl
+
+dynamorio
