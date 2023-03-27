@@ -11,3 +11,5 @@
 [https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/](https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/)
 
 [https://github.com/trustedsec/unicorn](https://github.com/trustedsec/unicorn)
+
+[https://github.com/CheckPointSW/Evasions](https://github.com/CheckPointSW/Evasions)
