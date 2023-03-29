@@ -60,11 +60,11 @@ description: all very low level stuff goes here. that includes kernel, firmware,
 
 [https://github.com/Octoberfest7/Mutants\_Sessions\_Self-Deletion](https://github.com/Octoberfest7/Mutants\_Sessions\_Self-Deletion)
 
+[attacking active directory](https://zer1t0.gitlab.io/posts/attacking\_ad/)
+
 ## Awesome
 
 [links](https://github.com/rmusser01/Infosec\_Reference/blob/master/Draft/Rootkits.md)
-
-[list of stuff to learn](https://www.codemachine.com/trainings/kerrkt.html)
 
 ## LoL
 

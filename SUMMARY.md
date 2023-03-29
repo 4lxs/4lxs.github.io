@@ -12,6 +12,7 @@
   * [Windows](kernel/README.md)
     * [DKOM](malware/kernel/dkom/README.md)
       * [Hiding processes](malware/kernel/dkom/hiding-processes.md)
+    * [VBS](red-team/kernel/vbs.md)
   * [Debugging](kernel/debugging/README.md)
     * [qemu vm windows kernel debugging](kernel/debugging/qemu-vm-windows-kernel-debugging.md)
   * [Virtualization](kernel/virtualization.md)
