@@ -2,6 +2,7 @@
 
 * [Malware Hell](README.md)
 * [Red Team](malware/README.md)
+  * [Web](red-team/web.md)
   * [Game hacking](games.md)
   * [CTF](ctf.md)
     * [Heap](pwn/heap.md)
