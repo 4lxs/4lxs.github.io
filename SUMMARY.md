@@ -1,6 +1,11 @@
 # Table of contents
 
 * [Malware Hell](README.md)
+* [Programming](programming/README.md)
+  * [Design & Software Engineering](programming/design-and-software-engineering.md)
+  * [Algorithms & Data Structures](programming/algorithms-and-data-structures.md)
+  * [Concepts & Techniques](programming/concepts-and-techniques.md)
+  * [CP](programming/cp.md)
 * [Red Team](malware/README.md)
   * [Web](red-team/web.md)
   * [Game hacking](games.md)
