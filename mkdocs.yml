@@ -1,12 +1,57 @@
 site_name: notes
 site_url: https://svl.si
+repo_url: https://github.com/4lxs/4lxs.github.io
 
 nav:
-  - ... | math/**/*
-  - ... | programming/**/*
-  - ... | cp/**/*
+  - index.md
+  - blog:
+    - blog/index.md
+  - math:
+    - math/README.md
+  - cp:
+    - cp/README.md
+    - cp/algorithms-and-data-structures.md
+  - programming:
+    - programming/design-and-software-engineering.md
+    - programming/concepts-and-techniques.md
   - old:
-    - ...
+    - kernel:
+      - kernel/README.md
+      - kernel/virtualization.md
+      - debugging:
+        - kernel/debugging/qemu-vm-windows-kernel-debugging.md
+        - kernel/debugging/README.md
+    - games:
+      - games/README.md
+    - ctf:
+      - ctf/README.md
+    - red-team:
+      - kernel:
+        - red-team/kernel/vbs.md
+      - red-team/web.md
+      - red-team/fuzzing.md
+      - red-team/malware.md
+      - red-team/defense-evasion.md
+    - pwn:
+      - stack:
+        - pwn/stack/README.md
+        - pwn/stack/rop.md
+      - heap:
+        - pwn/heap/README.md
+        - pwn/heap/unsafe-unlink-exploit.md
+    - malware:
+      - malware/README.md
+      - malware/kernel:
+        - dkom:
+          - malware/kernel/dkom/README.md
+          - malware/kernel/dkom/hiding-processes.md
+      - malware/linux.md
+    - ml:
+      - ml/README.md
+      - ml/logistic-regression.md
+      - ml/linear-regression.md
+      - ml/gradient-descent.md
+      - ml/neural-networks.md
 
 theme:
   name: material
@@ -43,9 +88,15 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - content.code.copy
+    - search.suggest
+    - search.highlight
+    - content.action.view
+    - content.action.edit
 
 plugins:
+  - search
   - awesome-pages
+  - blog
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -57,6 +108,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra_javascript:
   - javascripts/katex.js
