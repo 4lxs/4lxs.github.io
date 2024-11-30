@@ -6,14 +6,30 @@ nav:
   - index.md
   - blog:
     - blog/index.md
+  - pl:
+    - pl/README.md
+    - type theory:
+      - pl/type-theory/README.md
+    - design:
+      - pl/design/README.md
+      - pl/design/pattern-matching.md
+    - oil:
+      - pl/oil/README.md
+    - todo: pl/todo.md
   - math:
     - math/README.md
-  - cp:
-    - cp/README.md
-    - cp/algorithms-and-data-structures.md
   - programming:
     - programming/design-and-software-engineering.md
     - programming/concepts-and-techniques.md
+    - programming/functional-programming.md
+    - programming/todo.md
+    - dsa:
+      - programming/dsa/README.md
+      - programming/dsa/segment-tree.md
+      - programming/dsa/range-query.md
+      - programming/dsa/todo.md
+    - programming/haskell.md
+    - programming/ml.md
   - old:
     - kernel:
       - kernel/README.md
@@ -92,6 +108,7 @@ theme:
     - search.highlight
     - content.action.view
     - content.action.edit
+    - content.tooltips
 
 plugins:
   - search
@@ -111,6 +128,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - footnotes
 
 extra_javascript:
   - javascripts/katex.js
