@@ -1,0 +1,1 @@
+it's still important to state obvious ideas. it allows you to think about and generalise them allowing for new ideas to arise

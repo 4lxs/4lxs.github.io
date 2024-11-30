@@ -15,7 +15,6 @@ nav:
       - pl/design/pattern-matching.md
     - oil:
       - pl/oil/README.md
-    - todo: pl/todo.md
   - math:
     - math/README.md
   - programming:
@@ -27,12 +26,44 @@ nav:
       - programming/dsa/README.md
       - programming/dsa/segment-tree.md
       - programming/dsa/range-query.md
-      - programming/dsa/todo.md
     - programming/haskell.md
-    - programming/ml.md
+    - programming/ocaml.md
+    - programming/rust.md
+    - programming/cpp.md
+  - graphics:
+    - graphics/README.md
+  - self improvement:
+    - self-improvement/README.md
+    - self-improvement/critical-thinking.md
+    - self-improvement/memory.md
+    - self-improvement/learning.md
+    - self-improvement/nutrition/supplements.md
+    - nutrition:
+      - self-improvement/nutrition/metabolism.md
+  - inbox:
+    - inbox/README.md
+    - inbox/compiler.md
+    - inbox/data hoarding.md
+    - inbox/editor.md
+    - inbox/engineering-a-compiler.md
+    - inbox/exploit 6 days a week.md
+    - inbox/goals - long-term.md
+    - inbox/goals - short-term.md
+    - inbox/goals and habits - smart.md
+    - inbox/home-lab.md
+    - inbox/life book.md
+    - inbox/magic.md
+    - inbox/privacy.md
+    - inbox/projects.md
+    - inbox/state obvious ideas.md
+    - inbox/tasks.md
+    - papers:
+      - inbox/papers/README.md
+      - inbox/papers/thompson - reflections on trusting trust.md
   - old:
     - kernel:
       - kernel/README.md
+      - kernel/notes.md
       - kernel/virtualization.md
       - debugging:
         - kernel/debugging/qemu-vm-windows-kernel-debugging.md
